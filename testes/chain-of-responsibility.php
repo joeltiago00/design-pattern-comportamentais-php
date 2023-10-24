@@ -6,7 +6,8 @@ $calculadora = new \App\CalculadoraDeImpostos();
 
 $orcamento = new \App\Orcamento();
 $orcamento->valor = 300;
+$orcamento->quantidadeDeItens = 5;
 
-$imposto = new \App\Impostos\Icms();
+$calculadora = new \App\CalculadoraDeDesconto();
 
-var_dump($calculadora->calcular($orcamento, $imposto));
+var_dump($calculadora->calcular($orcamento));
