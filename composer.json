@@ -1,0 +1,9 @@
+{
+    "name": "alvez2g/design-patterns-comportamentais-php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
